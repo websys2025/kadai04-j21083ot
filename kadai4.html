@@ -37,6 +37,13 @@
 
                     // 配列の内容を項目毎に出力
                     // 課題4-1. ここにコードを書く
+for (const item of list) {
+    console.log(`商品番号: ${item.id}, 商品名: ${item.name}, 金額: ${item.price}, 在庫数: ${item.stock}`);
+}
+
+                    
+
+
                     console.log(""); // 空行の出力
                 }
                 
@@ -45,6 +52,62 @@
                     if (this.stock >= 1) { 
                         console.log("商品番号: "+this.id+", 商品名: "+this.name+"を購入します。");
                         // 課題4-2. ここにコードを書く
+                        <table border="1">
+  <tr>
+    <th>商品名</th>
+    <th>金額</th>
+    <th>在庫数</th>
+    <th>購入</th>
+  </tr>
+  <tr>
+    <td>緑茶</td>
+    <td>140</td>
+    <td>5</td>
+    <td><button>購入</button></td>
+  </tr>
+  <tr>
+    <td>水</td>
+    <td>100</td>
+    <td>14</td>
+    <td><button>購入</button></td>
+  </tr>
+  <tr>
+    <td>オレンジジュース</td>
+    <td>150</td>
+    <td>7</td>
+    <td><button>購入</button></td>
+  </tr>
+  <tr>
+    <td>リンゴジュース</td>
+    <td>150</td>
+    <td>9</td>
+    <td><button>購入</button></td>
+  </tr>
+  <tr>
+    <td>炭酸水</td>
+    <td>120</td>
+    <td>1</td>
+    <td><button>購入</button></td>
+  </tr>
+  <tr>
+    <td>サイダー</td>
+    <td>160</td>
+    <td>3</td>
+    <td><button>購入</button></td>
+  </tr>
+  <tr>
+    <td>コーヒー</td>
+    <td>170</td>
+    <td>8</td>
+    <td><button>購入</button></td>
+  </tr>
+  <tr>
+    <td>紅茶</td>
+    <td>140</td>
+    <td>6</td>
+    <td><button>購入</button></td>
+  </tr>
+</table>
                         // 購入による商品の在庫削減処理
                         
                         // 課題4-3. ここにコードを書く
